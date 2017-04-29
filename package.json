@@ -1,0 +1,25 @@
+{
+  "name": "instagram",
+  "version": "1.0.0",
+  "description": "crawler instagram",
+  "main": "crawler_instagram.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregmortaud/instagram.git"
+  },
+  "author": "gregoire mortaud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gregmortaud/instagram/issues"
+  },
+  "homepage": "https://github.com/gregmortaud/instagram#readme",
+  "dependencies": {
+    "async": "^2.3.0",
+    "async-waterfall": "^0.1.5",
+    "cheerio": "^0.22.0",
+    "request": "^2.81.0"
+  }
+}
